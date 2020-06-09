@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 适配移动端  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <style>
+      
+
+    </style>
+</head>
+<body>
+        <!--  
+            页面的布局问题
+        
+            栅格系统
+
+            bootstrap  会将当前页面 分为 12 列
+
+            less  sass ---  css   有变量的css
+        -->
+<!-- 定义出栅格系统所在的容器  -->
+<div class="container-fluid">
+    <!-- 规划出你要多少行  循环  -->
+    <!-- {{each list}} -->
+   
+     <div class="row">
+            <!-- 在行里面规定要有多少列 默认12列 -->
+            <div class="col-xs-2 " style=" border: 1px solid red;">1</div>
+            <div class="col-xs-2 col-xs-offset-1 " style=" border: 1px solid red;">2</div>
+            <div class="col-xs-2 col-xs-offset-1" style="  border: 1px solid red;">3</div>
+            <div class="col-xs-2 col-xs-offset-2" style=" border: 1px solid red;">4</div>
+     </div>
+
+
+     <div class="row">
+        <!-- 在行里面规定要有多少列 默认12列 -->
+        <div class="col-xs-3 col-xs-push-9 " style=" border: 1px solid red;">311111</div>
+        <div class="col-xs-9 col-xs-pull-3" style=" border: 1px solid red;">92222222</div>
+   </div>
+
+
+    <!-- {{/each}} -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
